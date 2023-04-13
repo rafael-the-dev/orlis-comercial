@@ -1,0 +1,17 @@
+.chartContainer {
+    height: calc(100% - 150px);
+}
+
+.chartContainerOpen {
+    height: calc(100% - 150px - 42px);
+}
+
+@media screen and (min-width: 600px) {
+    .chartContainer {
+        height: calc(100% - 4rem);
+    }
+    
+    .chartContainerOpen {
+        height: calc(100% - 4rem - 42px);
+    }
+}

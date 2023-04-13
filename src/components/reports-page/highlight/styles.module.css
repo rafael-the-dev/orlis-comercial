@@ -1,0 +1,11 @@
+.container {
+    margin-bottom: 1rem;
+    width: 48%;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        margin-bottom: 0;
+        width:23.5%;
+    }
+}

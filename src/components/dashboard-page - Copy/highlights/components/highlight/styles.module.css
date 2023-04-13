@@ -1,0 +1,14 @@
+.container {
+    background-color: #FFF; /*f7f7f7*/
+}
+
+.container svg {
+    font-size: 4rem;
+    opacity: .3;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 23.5%;
+    }
+}

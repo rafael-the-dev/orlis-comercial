@@ -1,0 +1,22 @@
+
+
+.input {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+@media screen and  (min-width: 768px) {
+    .w12 {
+        width: 48.53%;
+    }
+
+    .w13 {
+        width: 31.3333%;
+    }
+}
+
+@media screen and  (min-width: 1024px) {
+    .main {
+        height: calc(100% - 4rem);
+    }
+}

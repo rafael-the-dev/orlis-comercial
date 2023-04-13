@@ -1,0 +1,16 @@
+.paper {
+    height: 90%;
+    width: 90%;
+}
+
+@media screen and (min-width: 900px) {
+    .paper {
+        max-width: 700px !important;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .paper {
+        max-width: 900px !important;
+    }
+}

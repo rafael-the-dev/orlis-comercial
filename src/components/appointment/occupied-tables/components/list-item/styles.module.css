@@ -1,0 +1,9 @@
+.listItem {
+    border-color: #cccccc54;
+}
+
+.avatar {
+    font-size: .8rem;
+    height: 22px;
+    width: 22px;
+}

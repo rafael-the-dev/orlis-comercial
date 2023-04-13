@@ -1,0 +1,29 @@
+
+.container {
+    width: 100%;
+}
+
+.imageContainer {
+    height: 250px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        margin-right: 2%;
+        width: 48%;
+    }
+
+    .imageContainer {
+        height: 280px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        width: calc(100% / 3 - 2%);
+    }
+}
+
+.container:last-child {
+    margin-right: 0;
+}

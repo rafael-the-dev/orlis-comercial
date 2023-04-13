@@ -1,0 +1,32 @@
+.button {
+    border-radius: 9999px;
+    height: 45px;
+    margin-right: 1rem;
+    min-width: 45px !important;
+    transition: width 1s ease !important;
+    width: 45px;
+}
+
+.buttonOpen {
+    width: calc(100% - 1rem);
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        transition: width 1s ease;
+        width: 80px;
+    }
+
+    .containerOpen {
+        width: 193px;
+    }
+
+    .label {
+        transition: transform 1s ease;
+        transform: scale(0);
+    }
+
+    .labelOpen {
+        transform: scale(1);
+    }
+}

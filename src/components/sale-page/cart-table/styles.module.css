@@ -1,0 +1,7 @@
+
+
+@media screen and (min-width: 600px) {
+    .container {
+        height: calc(100vh - 353px);
+    }
+}

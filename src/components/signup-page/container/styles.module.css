@@ -1,0 +1,15 @@
+
+@media screen and (min-width: 600px) {
+    .loginContainer {
+        width: 400px !important;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .loginContainer {
+        width: 800px !important;
+    }
+}
+
+
+

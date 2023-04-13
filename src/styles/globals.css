@@ -1,0 +1,51 @@
+* {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    min-height: calc(100vh - 56px);
+}
+
+.sign-up-select .MuiOutlinedInput-root {
+    border-radius: .5rem !important;
+}
+
+.input {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+@media screen and  (min-width: 768px) {
+    .w12 {
+        width: 48.53%;
+    }
+
+    .w13 {
+        width: 31.3333%;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .remove-px-10 {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+}
+
+@media screen and  (min-width: 1024px) {
+    .main {
+        height: calc(100% - 4rem);
+    }
+
+    .layout-content-wrapper {
+        width: calc(100% - 80px);
+    }
+
+    .open-side-bar .layout-content-wrapper {
+        width: calc(100% - 193px);
+    }
+}

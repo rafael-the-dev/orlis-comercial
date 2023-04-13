@@ -1,0 +1,11 @@
+
+
+.select, .input {
+    width: 40%;
+}
+
+@media screen and (min-width: 950px) {
+    .select, .input {
+        width: 28%;
+    }
+}

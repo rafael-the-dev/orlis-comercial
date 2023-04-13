@@ -1,0 +1,42 @@
+.card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    min-height: 170px;
+    width: 100%;
+}
+
+.card svg {
+    color: #2B3442;
+    font-size: 5.7rem;
+    margin-bottom: 1rem;;
+    opacity: .65;
+    right: 10px;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+/**
+.card svg {
+    color: #000;
+    font-size: 5.7rem;
+    opacity: .65;
+    position: absolute;
+    right: 10px;
+}*/
+@media screen and (min-width: 600px) {
+    .card {
+        width: 48%
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .card {
+        width: 23.5%
+    }
+}

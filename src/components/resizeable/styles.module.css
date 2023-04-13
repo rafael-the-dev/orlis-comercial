@@ -1,0 +1,10 @@
+.resizer {
+    bottom: 0;
+    background: blue;
+    cursor: se-resize; 
+    height: 10px;
+    position: absolute;
+    right: 0;
+    width: 10px; 
+    z-index: 20;
+}

@@ -1,0 +1,15 @@
+.dialogPaper {
+    width: 85%;
+}
+
+@media screen and (min-width: 600px) {
+    .dialogPaper {
+        width: 265px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .dialogPaper {
+        width: 280px;
+    }
+}

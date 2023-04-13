@@ -1,0 +1,8 @@
+
+
+@media screen and (min-width: 1024px) {
+    .root {
+        padding: 0 0 .6rem 0;
+        width: 240px;
+    }
+}

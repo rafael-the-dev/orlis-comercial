@@ -1,0 +1,31 @@
+.listItem {
+    border-radius: 60px 0 0 59px !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+}
+
+.listItemSelected::before, .listItemSelected::after {
+    border-color: #FFF;
+    border-style: solid;
+    content: "";
+    height: 20px;
+    position: absolute;
+    right: -5px;
+    width: 50px;
+}
+
+.listItemSelected::before {
+    border-radius: 0 0 25px 0;
+    border-width: 0 6px 6px 0;
+    top: -13px;
+}
+
+.listItemSelected::after {
+    border-radius: 0 25px 0 0;
+    border-width: 6px 6px 0 0;
+    bottom: -13px;
+}
+
+.listItem svg {
+    margin-right: .7rem;
+}

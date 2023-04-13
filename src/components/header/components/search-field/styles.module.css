@@ -1,0 +1,27 @@
+.form {
+    right: -9999px;
+    transition: all 2s ease;
+    transform: scale(0);
+    top: 50px;
+    width: 90%;
+    z-index: 11;
+}
+
+.formOpen {
+    right: 5%;
+    transform: scale(1);
+}
+
+.formIcon {
+    width: 70px;
+}
+
+@media screen and (min-width: 600px) {
+    .form {
+        width: 200px;
+    }
+
+    .formIcon {
+        width: 30px;
+    }
+}

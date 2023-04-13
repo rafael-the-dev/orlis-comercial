@@ -1,0 +1,36 @@
+
+.container {
+    min-height: 100vh;
+}
+
+.imageContainer {
+    height: 250px;
+    margin-bottom: 1.2rem;
+}
+
+
+.imageContainer, .fieldset {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .imageContainer {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .imageContainer {
+        height: 300px;
+        margin: 0 4% 0 0;
+        width: 300px;
+    }
+
+    .fieldset {
+        width: calc(100% - 370px);
+    }
+}
+
+
+
+

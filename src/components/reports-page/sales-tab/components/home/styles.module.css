@@ -1,0 +1,34 @@
+.hightlightsContainer {
+    height: 150px;
+}
+
+.analyticsContainer {
+    transform: translate(0, 25%);
+}
+
+
+.filtersButton {
+    height: 80px;
+    width: 49%;
+}
+
+.salesListContainer {
+    height: calc(100vh - 347.5px);
+}
+
+.tableContainer {
+    height: calc(100% - 60px);
+}
+
+@media screen and (min-width: 600px) {
+    
+
+    .filtersButton {
+        height: auto;
+        width: 19%;
+    }
+
+    .date {
+        top: 70px;
+    }
+}

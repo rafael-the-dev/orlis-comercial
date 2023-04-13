@@ -1,0 +1,13 @@
+.form {
+    height: calc(100% - 96px);
+}
+
+.paper {
+    width: 60%;
+}
+
+@media screen and (min-width: 600px) {
+    .paper {
+        width: 250px;
+    }
+}

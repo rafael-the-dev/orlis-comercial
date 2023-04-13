@@ -1,0 +1,16 @@
+
+
+@media screen and (min-width: 1024px) {
+    .cartContainer {
+        
+    }
+
+    .rightPanel {
+        width: 100px;
+    }
+
+    .paymentButton {
+        height: 70px;
+        width: 220px;
+    }
+}

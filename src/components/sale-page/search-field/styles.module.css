@@ -1,0 +1,4 @@
+.tableContainer {
+    max-height: 340px;
+    transform: translate(0, 100%);
+}

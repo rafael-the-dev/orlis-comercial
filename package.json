@@ -1,0 +1,51 @@
+{
+  "name": "create-next-app-default",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@devexpress/dx-react-core": "^3.0.4",
+    "@devexpress/dx-react-scheduler": "^3.0.4",
+    "@devexpress/dx-react-scheduler-material-ui": "^3.0.4",
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "@mui/x-date-pickers": "^5.0.7",
+    "@svgr/webpack": "^6.5.1",
+    "apexcharts": "^3.36.3",
+    "bcrypt": "^5.1.0",
+    "classnames": "^2.3.2",
+    "cookie": "^0.5.0",
+    "currency.js": "^2.0.4",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongodb": "^4.13.0",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "18.2.0",
+    "rrule": "^2.6.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8"
+  }
+}

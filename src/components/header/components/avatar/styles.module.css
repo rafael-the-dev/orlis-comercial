@@ -1,0 +1,15 @@
+.avatar {
+    height: 33px;
+    width: 33px;
+}
+
+.list {
+    min-width: 150px;
+}
+
+@media screen and (min-width: 1024px) {
+    .avatar {
+        height: 40px;
+        width: 40px;
+    }
+}

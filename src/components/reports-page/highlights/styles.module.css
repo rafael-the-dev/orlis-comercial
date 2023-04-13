@@ -1,0 +1,21 @@
+.hightlightsContainer {
+    width: 100%;
+}
+
+.hightlightsContainerOthers div:first-child {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .hightlightsContainer {
+        width: 79.5%;
+    }
+
+    .hightlightsContainerOthers {
+        width: 80%;
+    }
+
+    .hightlightsContainerOthers > div {
+        width: 31.3333% !important;
+    }
+}

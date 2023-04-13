@@ -1,0 +1,15 @@
+
+
+@media screen and (min-width: 1024px) {
+    .root {
+        padding: 0.2rem 0.5rem;
+    }
+
+    .rootSelected {
+        width: 120px;
+    }
+
+    .tableTab {
+        min-width: 156px;
+    }
+}

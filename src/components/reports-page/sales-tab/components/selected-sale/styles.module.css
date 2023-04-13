@@ -1,0 +1,28 @@
+.dialogPaper {
+    height: 90vh;
+    width: 90%;
+}
+
+.tableHeadRow {
+    background-color: #4b6a9bcf;
+}
+
+.dialogBody {
+    height: calc(100% - 61.75px);
+}
+
+.itemsWrapper {
+    height: calc(100% - 137.25px);
+}
+
+.itemsContainer {
+    height: calc(100% - 75.25px);
+}
+
+
+@media screen and (min-width: 1024px) {
+    .dialogPaper {
+        max-width: 1200px;
+        width: 1000px;
+    }
+}
